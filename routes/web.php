@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::resource('pizze', 'PizzaController');
+Route::resource('ingredienti', 'IngredientiController');
