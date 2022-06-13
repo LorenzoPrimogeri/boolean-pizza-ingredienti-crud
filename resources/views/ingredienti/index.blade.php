@@ -69,6 +69,7 @@
 <body>
     <div>
         <a href="{{ route('ingredienti.create') }}">Crea un nuovo ingrediente</a>
+        <p>Ingredienti</p>
         <ul>
             @foreach ($ingredienti as $ingrediente)
             <li>

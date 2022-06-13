@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <h1>{{ $ingrediente->name }}</h1>
+    <h1>Nome Ingrediente:{{ $ingrediente->name }}</h1>
 
-    <h1>Pizze</h1>
+    <h1>Pizze contenenti l'ingrediente</h1>
     @if ($pizze->isEmpty())
     <div>
         non ci sono pizze con questo ingrediente!
